@@ -72,5 +72,3 @@ number_guessing_game()
 ```
 
 Feel free to enhance the game, add features, or modify the structure as you see fit. Contributors can use this document as a guide to implementing the number guessing game in Python.
-
-This document provides a clear overview of the project, its objectives, features, and step-by-step instructions. The example code is included with comments to guide contributors through the implementation. Contributors can use this document as a reference to create their version of the number guessing game in Python.
