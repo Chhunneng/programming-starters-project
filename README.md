@@ -19,3 +19,11 @@ We welcome contributions! If you have a project idea or want to improve existing
 This repository is open-sourced under the [MIT License](LICENSE). Feel free to use, modify, and share the content with others.
 
 Happy coding! 🚀✨
+
+---
+
+## Contributors
+
+<a href="https://github.com/Chhunneng/programming-starters-project/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=Chhunneng/programming-starters-project" />
+</a>
