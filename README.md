@@ -10,12 +10,12 @@
 
 ## Contributing
 
-We welcome contributions! If you have a project idea or want to improve existing projects, please check out our [Contributing Guidelines](CONTRIBUTING.md). Your contributions help make learning to code more accessible.
+We welcome contributions! If you have a project idea or want to improve existing projects, please check out our [Contributing Guidelines](.github/CONTRIBUTING.md). Your contributions help make learning to code more accessible.
 
 ⭐ If you find this project helpful, consider giving it a star! ⭐ It's a simple way to show your support.
 
 ## License
 
-This repository is open-sourced under the [MIT License](LICENSE.md). Feel free to use, modify, and share the content with others.
+This repository is open-sourced under the [MIT License](LICENSE). Feel free to use, modify, and share the content with others.
 
 Happy coding! 🚀✨
