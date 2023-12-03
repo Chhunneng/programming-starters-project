@@ -48,12 +48,56 @@ Create a new HTML file named `index.html` and a JavaScript file named `random_qu
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Random Quote Generator</title>
+<style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #f4f4f4;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    #quote-container {
+      text-align: center;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    #quote-text {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+
+    #quote-author {
+      font-style: italic;
+      color: #555;
+    }
+
+    #new-quote-btn {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      font-size: 1rem;
+      cursor: pointer;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    #new-quote-btn:hover {
+      background-color: #45a049;
+    }
+  </style>
 </head>
 <body>
   <div id="quote-container">
     <p id="quote-text"></p>
     <p id="quote-author"></p>
-    <button onclick="getRandomQuote()">Get Another Quote</button>
+    <button id="new-quote-btn" onclick="getRandomQuote()">Get Another Quote</button>
   </div>
 
   <script src="random_quote_generator.js"></script>
