@@ -13,7 +13,7 @@ By comparing the lengths of subsequences that include or exclude elements at pos
 The LCS algorithm has a time complexity of O(m*n) where m and n are the lengths of the input sequences.
 In the code I have provided, I have implemented a version of the longest common subsequence (LCS) algorithm in Python to find the LCS length between two sequences a and b.
 
-`
+```
 def longest_common_subsequence(a, b):
     m = len(a)  # Length of sequence a
     n = len(b)  # Length of sequence b
@@ -35,8 +35,7 @@ result = longest_common_subsequence(a, b)  # Calculate the longest common subseq
 for row in result:
     print(a)  # Print sequence a
     print(row)  # Print each row of the matrix containing the lengths of longest common subsequences
-
-`
+```
 
 This code defines a function longest_common_subsequence that calculates the lengths of the longest common subsequences between two sequences a and b. It uses dynamic programming to fill a matrix c where `c[i][j]`  stores the length of the longest common subsequence between the first i elements of a and the first j elements of b.
 
