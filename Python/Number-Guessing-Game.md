@@ -47,7 +47,7 @@ import random
 
 def number_guessing_game():
     # Generate a random number between 1 and 100
-    target_number = random.randint(1, 100)
+    target_number = random.randint(1, 50)
 
     attempts = 0
 
